@@ -1,0 +1,290 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 19618
+License: Customer
+
+Current time: 	3/31/19 11:43:01 AM EDT
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: CentOS Linux release 7.6.1810 (Core) 
+OS Version: 3.10.0-957.5.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: localhost:10.0
+Screen size: 1920x2160
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 43 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/home/user/Xilinx/Vivado/2017.2/tps/lnx64/jre
+JVM executable location: 	/home/user/Xilinx/Vivado/2017.2/tps/lnx64/jre/bin/java
+Java library paths: /home/user/Xilinx/Vivado/2017.2/lib/lnx64.o:/home/user/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64:/home/user/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server:/home/user/Xilinx/Vivado/2017.2/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	user
+User home directory: /home/user
+User working directory: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/user/Xilinx/Vivado
+HDI_APPROOT: /home/user/Xilinx/Vivado/2017.2
+RDI_DATADIR: /home/user/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: /home/user/Xilinx/Vivado/2017.2/bin
+
+User preferences location: /home/user/.Xilinx/Vivado
+Vivado preferences directory: /home/user/.Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: /home/user/.Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	/home/user/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-19618-huey-nuc
+
+GUI allocated memory:	172 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,891 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 51 MB (+50863kb) [00:00:09]
+// [Engine Memory]: 4,889 MB (+4975020kb) [00:00:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,909 MB. GUI used memory: 26 MB. Current time: 3/31/19 11:43:03 AM EDT
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_IP_LOCATIONS, "/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core", 0); // q:k (JPanel:JComponent, cg:JFrame)
+// Opening Vivado Project: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.xpr. Version: Vivado v2017.2 
+// bs:g (cg:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/managed_ip_project' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/user/Xilinx/Vivado/2017.2/data/ip'. 
+// Project name: managed_ip_project; location: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/managed_ip_project; part: xc7a50tcpg236-3
+// 'D' command handler elapsed time: 5 seconds
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// [GUI Memory]: 60 MB (+6759kb) [00:00:25]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0]", 1); // B:i (D:JPanel, cg:JFrame)
+// PAPropertyPanels.initPanels (axi_pcie_0.xci) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0]", 1, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE, "Re-customize IP..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// p:g (cg:JFrame): Re-customize IP: addNotify
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:Link Config", 1); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:ID", 2); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:BARS", 3); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:ID", 2); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:BARS", 3); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:Misc", 4); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:BARS", 3); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:Misc", 4); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:BARS", 5); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:System", 6); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Add. Debug Options", 7); // cR:i (C:JPanel, p:g)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0]", 1, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// au:p (cg:JFrame): Generate Output Products: addNotify
+selectRadioButton(PAResourceQtoS.SimpleOutputProductDialog_SYNTHESIZE_ALL_IP_INCLUDING_IP_CONTAINED, "Out of context per IP"); // a:JRadioButton (JPanel:JComponent, au:p)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, au:p)
+// bs:g (cg:JFrame):  Managing Output Products : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: set_property generate_synth_checkpoint true [get_files  /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_pcie_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_pcie_0'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_pcie_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_pcie_0'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 2 axi_pcie_0_synth_1 
+// Tcl Message: [Sun Mar 31 11:44:24 2019] Launched axi_pcie_0_synth_1... Run output will be captured here: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.runs/axi_pcie_0_synth_1/runme.log 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// 'bi' command handler elapsed time: 12 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// Elapsed time: 155 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0, axi_pcie_0.dcp]", 6, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0]", 1, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RESET_COMPOSITE_FILE, "Reset Output Products..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RESET_COMPOSITE_FILE
+// au:p (cg:JFrame): Reset Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_RESET_OUTPUT_PRODUCTS, "Reset"); // a:JButton (JPanel:JComponent, au:p)
+// bs:g (cg:JFrame):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: reset_target all [get_files  /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: export_ip_user_files -of_objects  [get_files  /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] -sync -no_script -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: delete_ip_run [get_files -of_objects [get_fileset axi_pcie_0] /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// Tcl Message: INFO: [Project 1-386] Moving file '/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci' from fileset 'axi_pcie_0' to fileset 'sources_1'. 
+// 'bi' command handler elapsed time: 4 seconds
+dismissDialog("Managing Output Products"); // bs:g (cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0]", 1, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// au:p (cg:JFrame): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, au:p)
+// bs:g (cg:JFrame):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_pcie_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_pcie_0'... 
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 66 MB (+3717kb) [00:04:36]
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_pcie_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_pcie_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all axi_pcie_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 2 axi_pcie_0_synth_1 
+// Tcl Message: [Sun Mar 31 11:47:28 2019] Launched axi_pcie_0_synth_1... Run output will be captured here: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.runs/axi_pcie_0_synth_1/runme.log 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// 'bi' command handler elapsed time: 9 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0]", 1); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0, axi_pcie_0.dcp]", 6, false); // B:i (D:JPanel, cg:JFrame)
+// [GUI Memory]: 71 MB (+922kb) [00:05:19]
+// [GUI Memory]: 74 MB (+81kb) [00:07:59]
+// [GUI Memory]: 78 MB (+3kb) [00:12:24]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 5,009 MB. GUI used memory: 50 MB. Current time: 3/31/19 11:55:46 AM EDT
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 83 MB (+965kb) [00:14:05]
+// [GUI Memory]: 87 MB (+166kb) [00:28:45]
+// Elapsed time: 1854 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0]", 1, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE, "Re-customize IP..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// p:g (cg:JFrame): Re-customize IP: addNotify
+// [GUI Memory]: 95 MB (+3883kb) [00:35:41]
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:ID", 2); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:Link Config", 1); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:ID", 2); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:BARS", 3); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:Misc", 4); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:BARS", 5); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:System", 6); // cR:i (C:JPanel, p:g)
+// Elapsed time: 33 seconds
+setText("S AXI ID WIDTH", "4"); // z:X (cS:y, p:g)
+// Elapsed time: 115 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:BARS", 5); // cR:i (C:JPanel, p:g)
+// Elapsed time: 14 seconds
+selectCheckBox((HResource) null, "64-bit Enable", false); // g:JCheckBox (bu:F, p:g): FALSE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:System", 6); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:BARS", 5); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:Misc", 4); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:BARS", 3); // cR:i (C:JPanel, p:g)
+// Elapsed time: 10 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:ID", 2); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:BARS", 3); // cR:i (C:JPanel, p:g)
+selectCheckBox((HResource) null, "BAR 64 bit Enabled", false); // g:JCheckBox (bu:F, p:g): FALSE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:Misc", 4); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:BARS", 5); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:System", 6); // cR:i (C:JPanel, p:g)
+// Elapsed time: 31 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:BARS", 5); // cR:i (C:JPanel, p:g)
+selectCheckBox((HResource) null, "64-bit Enable", true); // g:JCheckBox (bu:F, p:g): TRUE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:Misc", 4); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:BARS", 3); // cR:i (C:JPanel, p:g)
+selectCheckBox((HResource) null, "BAR 64 bit Enabled", true); // g:JCheckBox (bu:F, p:g): TRUE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:System", 6); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Add. Debug Options", 7); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:System", 6); // cR:i (C:JPanel, p:g)
+// Elapsed time: 61 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.BAR_64BIT {true} CONFIG.AXIBAR_AS_0 {true} CONFIG.S_AXI_ID_WIDTH {4} CONFIG.BAR0_SIZE {1}] [get_ips axi_pcie_0] 
+// au:p (cg:JFrame): Generate Output Products: addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, au:p)
+// bs:g (cg:JFrame):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'axi_pcie_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'axi_pcie_0'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'axi_pcie_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'axi_pcie_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all axi_pcie_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run axi_pcie_0_synth_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 2 axi_pcie_0_synth_1 
+// Tcl Message: [Sun Mar 31 12:23:57 2019] Launched axi_pcie_0_synth_1... Run output will be captured here: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/primitives/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.runs/axi_pcie_0_synth_1/runme.log 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 12 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,012 MB. GUI used memory: 56 MB. Current time: 3/31/19 12:25:48 PM EDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 101 MB (+1089kb) [00:52:25]
+// [GUI Memory]: 108 MB (+1553kb) [00:53:50]
+// [GUI Memory]: 114 MB (+1375kb) [00:54:10]
+// [GUI Memory]: 121 MB (+505kb) [00:55:20]
+// [GUI Memory]: 127 MB (+771kb) [00:55:40]
+// [GUI Memory]: 136 MB (+1750kb) [00:56:55]
+// [GUI Memory]: 142 MB (+67kb) [00:57:15]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,012 MB. GUI used memory: 54 MB. Current time: 3/31/19 12:55:48 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,012 MB. GUI used memory: 53 MB. Current time: 3/31/19 1:25:48 PM EDT

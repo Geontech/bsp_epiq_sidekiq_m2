@@ -1,0 +1,118 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 3781
+License: Customer
+
+Current time: 	4/2/19 9:34:26 PM EDT
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: CentOS Linux release 7.6.1810 (Core) 
+OS Version: 3.10.0-957.5.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: localhost:10.0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 43 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/home/user/Xilinx/Vivado/2017.2/tps/lnx64/jre
+JVM executable location: 	/home/user/Xilinx/Vivado/2017.2/tps/lnx64/jre/bin/java
+Java library paths: /home/user/Xilinx/Vivado/2017.2/lib/lnx64.o:/home/user/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64:/home/user/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server:/home/user/Xilinx/Vivado/2017.2/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	user
+User home directory: /home/user
+User working directory: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/user/Xilinx/Vivado
+HDI_APPROOT: /home/user/Xilinx/Vivado/2017.2
+RDI_DATADIR: /home/user/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: /home/user/Xilinx/Vivado/2017.2/bin
+
+User preferences location: /home/user/.Xilinx/Vivado
+Vivado preferences directory: /home/user/.Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: /home/user/.Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	/home/user/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-3781-huey-nuc
+
+GUI allocated memory:	151 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,905 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 49 MB (+49115kb) [00:00:11]
+// [Engine Memory]: 4,903 MB (+4989590kb) [00:00:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,915 MB. GUI used memory: 27 MB. Current time: 4/2/19 9:34:28 PM EDT
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core"); // ac:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Opening Vivado Project: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.xpr. Version: Vivado v2017.2 
+// bs:g (cg:JFrame):  Open Project : addNotify
+// [GUI Memory]: 52 MB (+602kb) [00:00:26]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/user/Xilinx/Vivado/2017.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,993 MB. GUI used memory: 32 MB. Current time: 4/2/19 9:34:47 PM EDT
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 6074.949 ; gain = 48.055 ; free physical = 13394 ; free virtual = 22262 
+// Project name: managed_ip_project; location: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/managed_ip_project; part: xc7a50tcpg236-3
+// 'D' command handler elapsed time: 10 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// PAPropertyPanels.initPanels (axi_pcie_0.xci) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, axi_pcie_0]", 1, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE, "Re-customize IP..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// M:bs (cg:JFrame):  Re-customize IP : addNotify
+// p:g (cg:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // M:bs (cg:JFrame)
+// [GUI Memory]: 57 MB (+2660kb) [00:00:48]
+// [GUI Memory]: 60 MB (+1kb) [00:00:58]
+// [GUI Memory]: 64 MB (+1126kb) [00:01:13]
+// [GUI Memory]: 70 MB (+2765kb) [00:01:28]
+// Elapsed time: 60 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:Link Config", 1); // cR:i (C:JPanel, p:g)
+// Elapsed time: 30 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:ID", 2); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:BARS", 3); // cR:i (C:JPanel, p:g)
+// Elapsed time: 48 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:Misc", 4); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:BARS", 5); // cR:i (C:JPanel, p:g)
+// Elapsed time: 36 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:System", 6); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Add. Debug Options", 7); // cR:i (C:JPanel, p:g)
+// Elapsed time: 10 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Shared Logic", 8); // cR:i (C:JPanel, p:g)
+// Elapsed time: 48 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Add. Debug Options", 7); // cR:i (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "AXI:System", 6); // cR:i (C:JPanel, p:g)
+// [GUI Memory]: 75 MB (+1046kb) [00:06:34]
+// Elapsed time: 234 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "PCIE:BARS", 3); // cR:i (C:JPanel, p:g)
+// [GUI Memory]: 80 MB (+1301kb) [00:13:49]
+// [GUI Memory]: 84 MB (+452kb) [00:23:09]

@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Sun Mar 31 19:22:48 2019
+# Process ID: 6317
+# Current directory: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core
+# Command line: vivado
+# Log file: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/vivado.log
+# Journal file: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.xpr
+set_property -dict [list CONFIG.AXIBAR_AS_0 {false} CONFIG.AXIBAR_0 {0xffffffff} CONFIG.AXIBAR_HIGHADDR_0 {0x00000000} CONFIG.AXIBAR2PCIEBAR_0 {0x00000000}] [get_ips axi_pcie_0]
+generate_target all [get_files  /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci]
+catch { config_ip_cache -export [get_ips -all axi_pcie_0] }
+export_ip_user_files -of_objects [get_files /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] -no_script -sync -force -quiet
+reset_run axi_pcie_0_synth_1
+launch_runs -jobs 2 axi_pcie_0_synth_1
+export_simulation -of_objects [get_files /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/axi_pcie_0.xci] -directory /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/ip_user_files/sim_scripts -ip_user_files_dir /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/ip_user_files -ipstatic_source_dir /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.cache/compile_simlib/modelsim} {questa=/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.cache/compile_simlib/questa} {ies=/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.cache/compile_simlib/ies} {vcs=/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.cache/compile_simlib/vcs} {riviera=/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+close_project

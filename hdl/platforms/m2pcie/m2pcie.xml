@@ -1,0 +1,95 @@
+<!-- Sidekiq/MiniPCIe Platform Worker -->
+<HdlPlatform Language="VHDL" spec='platform-spec'>
+  <specproperty name='platform' value='m2pcie'/>
+  <!-- All platform workers must provide these two ports -->
+  <metadata master='true'/> <!-- access to container metadata via the platform worker -->
+  <timebase master='true'/> <!-- providing a timebase for the time service -->
+  <!-- This platform worker provides a control plane -->
+  <cpmaster master='true'/>
+  <!-- Declare and parameterize the time_server device worker for this platform -->
+  <device worker='time_server'>
+    <property name='frequency' value='100e6'/>
+  </device>
+
+  <!-- EVENTUALLY, either there will be a more generic sdp implementation, than just 'zynq'-->
+  <!-- Prevent inclusion of Data Plane, until Control Plane is working -->
+<!--  <sdp name="m2pcie" master='true' count='1'/>-->
+
+  <property name="sdpDropCount" type='uchar' volatile='true'/>
+
+<!-- REQUIREMENT: 
+       - At least one signal assignment must be made, otherwise the follow errror would be observed:
+       For assy_{name} on {platform} using config base: creating NGD (Xilinx Native Generic Database) 
+       file using "ngdbuild". Details in ngdbuild.out ERROR:ConstraintSystem:58 - Constraint 
+       <NET "*pfconfig_cp_out*_clk" TNM_NET =ERROR:NgdBuild:605 - logical root block 
+	    'assy_{name}_{platform}_base' with type  Number of errors:     2
+-->
+  <signal output='led'/>
+  <signal input='aux_clk'/> <!--40 MHz low precision always-on clock-->
+  <signal input='ref_40mhz'/> <!--40 MHz ref-->
+
+  <signal input='perst_n'/>
+<!--  <signal input='sys_clk' differential='true'/>--> <!-- Sidekiq 'pcie_clk_p/n' -->
+  <signal input='sys_clk' differential='true'/> <!-- Sidekiq 'pcie_clk_p/n' -->
+  <signal input='pcie_exp_rx' differential='true' width='1'/> <!-- Sidekiq 'rx' -->
+  <signal output='pcie_exp_tx' differential='true' width='1'/> <!-- Sidekiq 'tx' -->
+
+  <!-- AD9361 SPI -->
+<!--  <signal output='spi_en_lo'/>
+  <signal output='spi_clk'/>
+  <signal input='spi_miso'/>
+  <signal output='spi_mosi'/>-->
+  <!-- AD9361 LVDS -->
+<!--  <signal input='data_clk' differential='true' width='1'/>
+  <signal input='rx_data' differential='true' width='6'/>
+  <signal input='rx_frame' differential='true' width='1'/>
+  <signal output='fb_clk' differential='true' width='1'/>
+  <signal output='tx_data' differential='true' width='6'/>
+  <signal output='tx_frame' differential='true' width='1'/>-->
+  <!-- I2C RF Frontend -->
+<!--  <signal bidirectional='scl'/>
+  <signal bidirectional='sda'/>-->
+  <!-- RF high/low/overload control -->
+<!--  <signal input='rf_band_0_ov'/>
+  <signal input='rf_band_1_ov'/>
+  <signal output='rf_band_0_ov_out'/>
+  <signal output='rf_band_1_ov_out'/>
+  <signal output='lna_en_a1'/>
+  <signal output='lna_en_a2'/>
+  <signal output='tx_en_a1'/>
+  <signal output='tx_en_a2'/>
+
+  <signal output='rf_rst_n'/>
+  <signal output='rf_en_agc'/>
+  <signal output='multi_sync'/>-->
+  <signal output='fpga_user_io'/>
+  <!-- External PPS input --> 
+  <signal input='ppsExtIn'/>
+  <!-- HW Revision and General Purpose Interface -->
+<!--  <signal input='hardware_rev' width='2'/>
+  <signal bidirectional='gpif' width='16'/>
+  <signal bidirectional='fx2_in_n'/>-->
+  <!-- IO on M2 edge connector -->
+<!--  <signal bidirectional='fpga_gpio' width='5'/>
+  <signal bidirectional='ant_ctrl_0'/>
+  <signal bidirectional='pci_coex3'/>
+  <signal bidirectional='w_disable_n'/>-->
+  <!-- ADC Digital Bus -->
+<!--  <signal input='adc_dig_bus_a' width='8'/>-->
+
+ <!-- TODO: ADD AD9361 device workers here.
+      This will result in removal of platform worker signal assignments -->
+<!--
+  <device worker='ad9361_dac'/>
+  <device worker='ad9361_adc'/>
+  <device worker='ad9361_tx'/>
+  <device worker='ad9361_rx'/>
+  <device worker='ad9361_spi'/>
+-->
+<!-- 
+  <device worker='accelerometer_p/n'/>
+  <device worker='temperature_senor_p/n'/>
+  <device worker='gpio'/>
+-->
+
+</HdlPlatform>

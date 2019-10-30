@@ -1,0 +1,41 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -p
+xc6slx45t-csg324-3 mpcie_rv_blk_mem_gen_v7_3_2_exdes
+
+Reading NGO file
+"/home/user/ocpi/bsp_sidekiq_m2_cp/hdl/platforms/m2pcie/cores_hack/mpcie_rv_blk_
+mem_gen_v7_3_2/implement/results/mpcie_rv_blk_mem_gen_v7_3_2_exdes.ngc" ...
+Loading design module
+"/home/user/ocpi/bsp_sidekiq_m2_cp/hdl/platforms/m2pcie/cores_hack/mpcie_rv_blk_
+mem_gen_v7_3_2/implement/results/mpcie_rv_blk_mem_gen_v7_3_2.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"mpcie_rv_blk_mem_gen_v7_3_2_exdes.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 501204 kilobytes
+
+Writing NGD file "mpcie_rv_blk_mem_gen_v7_3_2_exdes.ngd" ...
+Total REAL time to NGDBUILD completion:  8 sec
+Total CPU time to NGDBUILD completion:   8 sec
+
+Writing NGDBUILD log file "mpcie_rv_blk_mem_gen_v7_3_2_exdes.bld"...

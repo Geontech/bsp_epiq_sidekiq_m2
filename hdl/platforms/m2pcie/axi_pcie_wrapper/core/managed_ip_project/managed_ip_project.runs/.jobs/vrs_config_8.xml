@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="axi_pcie_0_synth_1" LaunchDir="/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.runs/axi_pcie_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

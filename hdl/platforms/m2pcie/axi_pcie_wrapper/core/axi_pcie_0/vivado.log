@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Apr  2 21:33:47 2019
+# Process ID: 3781
+# Current directory: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0
+# Command line: vivado
+# Log file: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/vivado.log
+# Journal file: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/managed_ip_project/managed_ip_project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/user/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 6074.949 ; gain = 48.055 ; free physical = 13394 ; free virtual = 22262

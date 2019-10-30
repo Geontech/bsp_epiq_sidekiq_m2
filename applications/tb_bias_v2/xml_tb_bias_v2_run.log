@@ -1,0 +1,7 @@
+OCPI( 2:476.0462): When searching for PCI device '0000:02:00.0': Can't open /dev/mem, forgot to load the driver? sudo?
+OCPI( 2:476.0462): In HDL Container driver, got PCI search error: Can't open /dev/mem, forgot to load the driver? sudo?
+Available containers are:  0: rcc0 [model: rcc os: linux platform: centos7]
+No containers were found for deploying instance 'pattern_v2' (spec 'ocpi.assets.util_comps.pattern_v2').
+The implementations found were:
+  Name: pattern_v2, Model: hdl, Arch: , Platform: m2pcie, Artifact instance: a/pattern_v2, OpenCPI Version: 1.5, File: /home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5/applications/tb_bias_v2/../../hdl/assemblies/tb_bias_v2/container-tb_bias_v2_m2pcie_base/target-artix7/tb_bias_v2_m2pcie_base.bit.gz
+Exiting for exception: For instance "pattern_v2" for spec "ocpi.assets.util_comps.pattern_v2": no feasible containers found for the 1 implementation found.

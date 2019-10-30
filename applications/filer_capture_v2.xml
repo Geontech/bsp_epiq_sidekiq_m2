@@ -1,0 +1,10 @@
+<!-- The patcap.xml application xml file -->
+<application package='ocpi'>
+  <instance component='file_read' connect='capture_v2'>
+    <property name='filename' value='test.input'/>
+    <property name='granularity' value='4'/>
+    <property name='messageSize' value='16'/>
+  </instance>
+  <instance component='capture_v2' model='hdl'/>
+</application>
+

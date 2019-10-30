@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Mar 25 16:27:15 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+PIN
+        bmg0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM9.ram_pins<26>
+        = BEL
+        "bmg0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM9.ram"
+        PINNAME CLKAWRCLK;
+TIMEGRP CLKA = PIN
+        "bmg0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM9.ram_pins<26>"
+        BEL "bufg_A";
+PIN
+        bmg0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM9.ram_pins<27>
+        = BEL
+        "bmg0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM9.ram"
+        PINNAME CLKBRDCLK;
+TIMEGRP CLKB = PIN
+        "bmg0/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_noinit.ram/TRUE_DP.PRIM9.ram_pins<27>"
+        BEL "bufg_B";
+TS_CLKA = PERIOD TIMEGRP "CLKA" 25 MHz HIGH 50%;
+TS_CLKB = PERIOD TIMEGRP "CLKB" 25 MHz HIGH 50%;
+SCHEMATIC END;
+

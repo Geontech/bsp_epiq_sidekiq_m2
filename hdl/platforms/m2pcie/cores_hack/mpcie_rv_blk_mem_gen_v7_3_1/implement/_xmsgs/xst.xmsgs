@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"/home/user/ocpi/bsp_sidekiq_m2_cp/hdl/platforms/m2pcie/cores_hack/mpcie_rv_blk_mem_gen_v7_3_1/example_design/mpcie_rv_blk_mem_gen_v7_3_1_exdes.vhd" Line 120: &lt;<arg fmt="%s" index="1">bufg</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="old" >"/home/user/ocpi/bsp_sidekiq_m2_cp/hdl/platforms/m2pcie/cores_hack/mpcie_rv_blk_mem_gen_v7_3_1/example_design/mpcie_rv_blk_mem_gen_v7_3_1_exdes.vhd" Line 127: &lt;<arg fmt="%s" index="1">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(31)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(30)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(29)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(28)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(27)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(26)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(25)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(24)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(23)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(22)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(21)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(20)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(19)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(18)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(17)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(16)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(15)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(14)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(13)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(12)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(11)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(10)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(9)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(8)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(7)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(6)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(5)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(4)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(3)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(2)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(1)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTA(0)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(31)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(30)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(29)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(28)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(27)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(26)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(25)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(24)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(23)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(22)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(21)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(20)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(19)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(18)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(17)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(16)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(15)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(14)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(13)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(12)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(11)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(10)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(9)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(8)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(7)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(6)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(5)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(4)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(3)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(2)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(1)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">DOUTB(0)</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">mpcie_rv_blk_mem_gen_v7_3_1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="1336" delta="old" > (*) More than 100% of Device resources are used
+</msg>
+
+</messages>
+

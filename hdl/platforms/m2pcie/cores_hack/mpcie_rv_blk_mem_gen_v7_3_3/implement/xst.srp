@@ -1,0 +1,260 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : VHDL
+Input File Name                    : "xst.prj"
+
+---- Target Parameters
+Target Device                      : xc6slx4-tqg144-3
+Output File Name                   : "mpcie_rv_blk_mem_gen_v7_3_3_exdes"
+Output Format                      : NGC
+
+---- Source Options
+Entity Name                        : mpcie_rv_blk_mem_gen_v7_3_3_exdes
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+
+---- General Options
+Write Timing Constraints           : No
+Bus Delimiter                      : ()
+Hierarchy Separator                : /
+Case Specifier                     : Maintain
+
+=========================================================================
+
+WARNING:Xst:29 - Optimization Effort not specified
+The following parameters have been added:
+Optimization Goal                  : SPEED
+
+=========================================================================
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/user/ocpi/bsp_sidekiq_m2_cp/hdl/platforms/m2pcie/cores_hack/mpcie_rv_blk_mem_gen_v7_3_3/example_design/mpcie_rv_blk_mem_gen_v7_3_3_exdes.vhd" into library work
+Parsing entity <mpcie_rv_blk_mem_gen_v7_3_3_exdes>.
+Parsing architecture <xilinx> of entity <mpcie_rv_blk_mem_gen_v7_3_3_exdes>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <mpcie_rv_blk_mem_gen_v7_3_3_exdes> (architecture <xilinx>) from library <work>.
+WARNING:HDLCompiler:89 - "/home/user/ocpi/bsp_sidekiq_m2_cp/hdl/platforms/m2pcie/cores_hack/mpcie_rv_blk_mem_gen_v7_3_3/example_design/mpcie_rv_blk_mem_gen_v7_3_3_exdes.vhd" Line 120: <bufg> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "/home/user/ocpi/bsp_sidekiq_m2_cp/hdl/platforms/m2pcie/cores_hack/mpcie_rv_blk_mem_gen_v7_3_3/example_design/mpcie_rv_blk_mem_gen_v7_3_3_exdes.vhd" Line 127: <mpcie_rv_blk_mem_gen_v7_3_3> remains a black-box since it has no binding entity.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <mpcie_rv_blk_mem_gen_v7_3_3_exdes>.
+    Related source file is "/home/user/ocpi/bsp_sidekiq_m2_cp/hdl/platforms/m2pcie/cores_hack/mpcie_rv_blk_mem_gen_v7_3_3/example_design/mpcie_rv_blk_mem_gen_v7_3_3_exdes.vhd".
+    Summary:
+	no macro.
+Unit <mpcie_rv_blk_mem_gen_v7_3_3_exdes> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <mpcie_rv_blk_mem_gen_v7_3_3_exdes> ...
+
+Mapping all equations...
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTA(7)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTA(6)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTA(5)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTA(4)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTA(3)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTA(2)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTA(1)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTA(0)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTB(7)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTB(6)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTB(5)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTB(4)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTB(3)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTB(2)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTB(1)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+WARNING:Xst:2036 - Inserting OBUF on port <DOUTB(0)> driven by black box <mpcie_rv_blk_mem_gen_v7_3_3>. Possible simulation mismatch.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block mpcie_rv_blk_mem_gen_v7_3_3_exdes, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : mpcie_rv_blk_mem_gen_v7_3_3_exdes.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 50
+#      IBUF                        : 32
+#      IBUFG                       : 2
+#      OBUF                        : 16
+# Others                           : 1
+#      mpcie_rv_blk_mem_gen_v7_3_3 : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx4tqg144-3 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          50
+ Number of bonded IOBs:                  50  out of    102    49%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 3.150ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 48 / 48
+-------------------------------------------------------------------------
+Delay:               3.150ns (Levels of Logic = 1)
+  Source:            bmg0:DOUTA(7) (PAD)
+  Destination:       DOUTA(7) (PAD)
+
+  Data Path: bmg0:DOUTA(7) to DOUTA(7)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    mpcie_rv_blk_mem_gen_v7_3_3:DOUTA(7)    1   0.000   0.579  bmg0 (DOUTA_7_OBUF)
+     OBUF:I->O                 2.571          DOUTA_7_OBUF (DOUTA(7))
+    ----------------------------------------
+    Total                      3.150ns (2.571ns logic, 0.579ns route)
+                                       (81.6% logic, 18.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.06 secs
+ 
+--> 
+
+
+Total memory usage is 491744 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   19 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

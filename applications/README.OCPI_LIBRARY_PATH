@@ -1,0 +1,1 @@
+export OCPI_LIBRARY_PATH={path}/projects/core/artifacts:{path}/bsp_sidekiq_m2_cp_dev1_5_cv2_8/artifacts

@@ -1,0 +1,7 @@
+INFILE=/home/user/ocpi/bsp_sidekiq_m2_cp/hdl/platforms/m2pcie/cores_hack/mpcie_rv_blk_mem_gen_v7_3_2/implement/results/routed.ncd
+OUTFILE=/home/user/ocpi/bsp_sidekiq_m2_cp/hdl/platforms/m2pcie/cores_hack/mpcie_rv_blk_mem_gen_v7_3_2/implement/results/routed.bit
+FAMILY=Spartan6
+PART=xc6slx45t-3csg324
+WORKINGDIR=/home/user/ocpi/bsp_sidekiq_m2_cp/hdl/platforms/m2pcie/cores_hack/mpcie_rv_blk_mem_gen_v7_3_2/implement/results
+LICENSE=WebPack
+USER_INFO=176706109_207303638_0_534

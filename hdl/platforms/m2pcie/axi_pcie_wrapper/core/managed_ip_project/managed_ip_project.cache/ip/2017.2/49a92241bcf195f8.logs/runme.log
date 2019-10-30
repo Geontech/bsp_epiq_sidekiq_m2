@@ -1,0 +1,256 @@
+
+*** Running vivado
+    with args -log axi_pcie_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source axi_pcie_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source axi_pcie_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1259.078 ; gain = 71.000 ; free physical = 12447 ; free virtual = 22345
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_0' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/synth/axi_pcie_0.v:60]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:18858]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_mm_s' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:17841]
+INFO: [Synth 8-638] synthesizing module 'register_block' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:10500]
+INFO: [Synth 8-256] done synthesizing module 'register_block' (1#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:10500]
+INFO: [Synth 8-638] synthesizing module 'axi_mm_s_masterbridge' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:10136]
+INFO: [Synth 8-638] synthesizing module 'axi_mm_s_masterbridge_wr' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:9746]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg' (28#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-638] synthesizing module 'axi_s_masterbridge_wr' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:8140]
+INFO: [Synth 8-256] done synthesizing module 'axi_s_masterbridge_wr' (29#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:8140]
+INFO: [Synth 8-638] synthesizing module 'axi_mm_masterbridge_wr' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:3435]
+INFO: [Synth 8-256] done synthesizing module 'axi_mm_masterbridge_wr' (30#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:3435]
+INFO: [Synth 8-256] done synthesizing module 'axi_mm_s_masterbridge_wr' (31#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:9746]
+INFO: [Synth 8-638] synthesizing module 'axi_mm_s_masterbridge_rd' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:9417]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized0' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg__parameterized0' (31#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-638] synthesizing module 'axi_s_masterbridge_rd' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:4250]
+INFO: [Synth 8-256] done synthesizing module 'axi_s_masterbridge_rd' (32#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:4250]
+INFO: [Synth 8-638] synthesizing module 'axi_mm_masterbridge_rd' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:2720]
+INFO: [Synth 8-256] done synthesizing module 'axi_mm_masterbridge_rd' (33#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:2720]
+INFO: [Synth 8-256] done synthesizing module 'axi_mm_s_masterbridge_rd' (34#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:9417]
+INFO: [Synth 8-256] done synthesizing module 'axi_mm_s_masterbridge' (35#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:10136]
+INFO: [Synth 8-638] synthesizing module 'slave_bridge' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:16442]
+INFO: [Synth 8-638] synthesizing module 'axi_slave_write' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:15215]
+INFO: [Synth 8-256] done synthesizing module 'axi_slave_write' (36#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:15215]
+INFO: [Synth 8-638] synthesizing module 'axi_slave_read' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:14176]
+INFO: [Synth 8-256] done synthesizing module 'axi_slave_read' (37#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:14176]
+INFO: [Synth 8-638] synthesizing module 'sync_fifo_fg__parameterized1' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-256] done synthesizing module 'sync_fifo_fg__parameterized1' (37#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/lib_fifo_v1_0_rfs.vhd:2097]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_wrapper' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/lib_bmg_v1_0_rfs.vhd:192]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_wrapper' (38#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/lib_bmg_v1_0_rfs.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'slave_write_req_tlp' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:13340]
+INFO: [Synth 8-256] done synthesizing module 'slave_write_req_tlp' (39#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:13340]
+INFO: [Synth 8-638] synthesizing module 'slave_read_req_tlp' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:12688]
+INFO: [Synth 8-256] done synthesizing module 'slave_read_req_tlp' (40#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:12688]
+INFO: [Synth 8-638] synthesizing module 'slave_read_cpl_tlp' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:10968]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_wrapper__parameterized0' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/lib_bmg_v1_0_rfs.vhd:192]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_wrapper__parameterized0' (40#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/lib_bmg_v1_0_rfs.vhd:192]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_wrapper__parameterized1' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/lib_bmg_v1_0_rfs.vhd:192]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_wrapper__parameterized1' (40#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/lib_bmg_v1_0_rfs.vhd:192]
+INFO: [Synth 8-256] done synthesizing module 'slave_read_cpl_tlp' (41#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:10968]
+INFO: [Synth 8-256] done synthesizing module 'slave_bridge' (42#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:16442]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_mm_s' (43#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:17841]
+INFO: [Synth 8-638] synthesizing module 'axi_enhanced_pcie' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:853]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_enhanced_core_top_wrap' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:17152]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_pcie_enhanced_core_top' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:11917]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_0_pcie_7x_v2_0_2.v:59]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gt_top' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:20313]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gt_rx_valid_filter_7x' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:20027]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gt_rx_valid_filter_7x' (44#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:20027]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pipe_wrapper' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:41232]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pipe_clock' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_5_pcie_7x_v2_0_2_pipe_clock.v:66]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (45#1) [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'BUFGCTRL' [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:661]
+INFO: [Synth 8-256] done synthesizing module 'BUFGCTRL' (46#1) [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:661]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20759]
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (47#1) [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:20759]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pipe_clock' (48#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_5_pcie_7x_v2_0_2_pipe_clock.v:66]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gtp_pipe_reset' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:26619]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gtp_pipe_reset' (49#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:26619]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_qpll_reset' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:44947]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_qpll_reset' (50#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:44947]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gtp_pipe_rate' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:25786]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gtp_pipe_rate' (51#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:25786]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gtp_pipe_drp' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:26248]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gtp_pipe_drp' (52#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:26248]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pipe_eq' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:34532]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_rxeq_scan' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:45636]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_rxeq_scan' (53#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:45636]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pipe_eq' (54#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:34532]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gt_common' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_5_pcie_7x_v2_0_2_gt_common.v:55]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_qpll_drp' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_5_pcie_7x_v2_0_2_qpll_drp.v:66]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_qpll_drp' (55#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_5_pcie_7x_v2_0_2_qpll_drp.v:66]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_qpll_wrapper' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_5_pcie_7x_v2_0_2_qpll_wrapper.v:66]
+INFO: [Synth 8-638] synthesizing module 'GTPE2_COMMON' [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:9987]
+INFO: [Synth 8-256] done synthesizing module 'GTPE2_COMMON' (56#1) [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:9987]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gtp_cpllpd_ovrd' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_5_pcie_7x_v2_0_2_gtp_cpllpd_ovrd.v:55]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gtp_cpllpd_ovrd' (57#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_5_pcie_7x_v2_0_2_gtp_cpllpd_ovrd.v:55]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_qpll_wrapper' (58#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_5_pcie_7x_v2_0_2_qpll_wrapper.v:66]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gt_common' (59#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_5_pcie_7x_v2_0_2_gt_common.v:55]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pipe_user' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:40064]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pipe_user' (60#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:40064]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pipe_sync' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:38795]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pipe_sync' (61#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:38795]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gt_wrapper' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:21816]
+INFO: [Synth 8-638] synthesizing module 'GTPE2_CHANNEL' [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:9285]
+INFO: [Synth 8-256] done synthesizing module 'GTPE2_CHANNEL' (62#1) [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:9285]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gtx_cpllpd_ovrd' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:24137]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gtx_cpllpd_ovrd' (63#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:24137]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gt_wrapper' (64#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:21816]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pipe_wrapper' (65#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:41232]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_gt_top' (66#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:20313]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_top' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:30823]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_top' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:9734]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_rx' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:7143]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_rx_pipeline' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:8991]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_rx_pipeline' (67#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:8991]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_rx_destraddler' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:8355]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_rx_destraddler' (68#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:8355]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_rx_null_gen' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:8663]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_rx_null_gen' (69#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:8663]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_rx_demux' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:7515]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_rx_demux' (70#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:7515]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_rx' (71#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:7143]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_tx' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:10309]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_tx_port_mux' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:11438]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_tx_port_mux' (72#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:11438]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_tx_pipeline' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:11024]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_tx_pipeline' (73#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:11024]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_tx_arbiter' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:10557]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_tx_arbiter' (74#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:10557]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_tx' (75#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:10309]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_cfg' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:1508]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_cfg_slave' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:4892]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_cfg_slave' (76#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:4892]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_cfg_gen_sink' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:4169]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_cfg_gen_sink' (77#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:4169]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_cfg_block_bridge' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:2290]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_cfg_block_bridge' (78#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:2290]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_cfg_event_handler' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:2690]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_cfg_event_handler' (79#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:2690]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_axi_lite_ipif' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:11739]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_slave_attachment' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:47065]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_address_decoder' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:1256]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pselect_f' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:46010]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pselect_f' (80#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:46010]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_address_decoder' (81#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:1256]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_slave_attachment' (82#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:47065]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_lite_ipif' (83#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:11739]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_cfg' (84#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:1508]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_enhanced_top' (85#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:9734]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_7x' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:27153]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_bram_top_7x' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:29006]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_brams_7x' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:29184]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_bram_7x' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:28784]
+INFO: [Synth 8-638] synthesizing module 'BRAM_TDP_MACRO' [/home/user/Xilinx/Vivado/2017.2/data/verilog/src/unimacro/BRAM_TDP_MACRO.v:30]
+INFO: [Synth 8-638] synthesizing module 'RAMB36E1' [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:42488]
+INFO: [Synth 8-256] done synthesizing module 'RAMB36E1' (86#1) [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:42488]
+INFO: [Synth 8-256] done synthesizing module 'BRAM_TDP_MACRO' (87#1) [/home/user/Xilinx/Vivado/2017.2/data/verilog/src/unimacro/BRAM_TDP_MACRO.v:30]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_bram_7x' (88#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:28784]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_brams_7x' (89#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:29184]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_bram_top_7x' (90#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:29006]
+INFO: [Synth 8-638] synthesizing module 'PCIE_2_1' [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:28345]
+INFO: [Synth 8-256] done synthesizing module 'PCIE_2_1' (91#1) [/home/user/Xilinx/Vivado/2017.2/scripts/rt/data/unisim_comp.v:28345]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_7x' (92#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:27153]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_pipe_pipeline' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:30025]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_pipe_misc' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:29806]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_pipe_misc' (93#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:29806]
+INFO: [Synth 8-638] synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_pipe_lane' [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:29478]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_pipe_lane' (94#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:29478]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_pipe_pipeline' (95#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:30025]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2_pcie_top' (96#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:30823]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_pcie_7x_v2_0_2' (97#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_0_pcie_7x_v2_0_2.v:59]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_axi_pcie_enhanced_core_top' (98#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:11917]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_v2_8_5_enhanced_core_top_wrap' (99#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.v:17152]
+INFO: [Synth 8-256] done synthesizing module 'axi_enhanced_pcie' (100#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:853]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie' (101#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/hdl/axi_pcie_v2_8_rfs.vhd:18858]
+INFO: [Synth 8-256] done synthesizing module 'axi_pcie_0' (102#1) [/home/user/ocpi/bsp_sidekiq_m2_cp_dev1_5_cv2_8/hdl/platforms/m2pcie/axi_pcie_wrapper/core/axi_pcie_0/synth/axi_pcie_0.v:60]
+Finished RTL Elaboration : Time (s): cpu = 00:04:18 ; elapsed = 00:04:19 . Memory (MB): peak = 1714.293 ; gain = 526.215 ; free physical = 12143 ; free virtual = 22047
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:04:20 ; elapsed = 00:04:22 . Memory (MB): peak = 1714.293 ; gain = 526.215 ; free physical = 12212 ; free virtual = 22116
+INFO: [Device 21-403] Loading part xc7a50tcpg236-3
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.72 ; elapsed = 00:00:00.23 . Memory (MB): peak = 1948.578 ; gain = 0.004 ; free physical = 11801 ; free virtual = 21705
+Finished Constraint Validation : Time (s): cpu = 00:04:44 ; elapsed = 00:04:44 . Memory (MB): peak = 1948.578 ; gain = 760.500 ; free physical = 12040 ; free virtual = 21944
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:05:16 ; elapsed = 00:05:24 . Memory (MB): peak = 1952.496 ; gain = 764.418 ; free physical = 10651 ; free virtual = 20556
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:05:44 ; elapsed = 00:06:03 . Memory (MB): peak = 1952.500 ; gain = 764.422 ; free physical = 10254 ; free virtual = 20170
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++--------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+-----------+----------------------+----------------+
+|Module Name                                                                           | RTL Object                                                                                                  | Inference | Size (Depth x Width) | Primitives     | 
++--------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+-----------+----------------------+----------------+
+|slave_bridge__GCB0                                                                    | mswrreqpendrecord_reg                                                                                       | Implied   | 8 x 3                | RAM32M x 1     | 
+|slave_bridge__GCB1                                                                    | slwrreqpendrecord_reg                                                                                       | Implied   | 8 x 2                | RAM16X1D x 2   | 
+|axi_pcie_mm_s__GC0                                                                    | comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_wr/comp_axi_mm_masterbridge_wr/m_axi_awaddrtemp_reg   | Implied   | 4 x 32               | RAM32M x 6     | 
+|axi_pcie_mm_s__GC0                                                                    | comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_wr/comp_axi_mm_masterbridge_wr/m_axi_awlentemp_reg    | Implied   | 4 x 8                | RAM32M x 2     | 
+|axi_pcie_mm_s__GC0                                                                    | comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_wr/comp_axi_mm_masterbridge_wr/m_axi_awsizetemp_reg   | Implied   | 4 x 2                | RAM32M x 1     | 
+|axi_pcie_mm_s__GC0                                                                    | comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_wr/comp_axi_mm_masterbridge_wr/m_axi_awprottemp_reg   | Implied   | 4 x 3                | RAM32M x 1     | 
+|axi_pcie_mm_s__GC0                                                                    | comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_wr/comp_axi_mm_masterbridge_wr/m_axi_awlensttemp_reg  | Implied   | 4 x 8                | RAM32M x 2     | 
+|axi_pcie_mm_s__GC0                                                                    | comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_wr/comp_axi_mm_masterbridge_wr/m_axi_awaddrsttemp_reg | Implied   | 4 x 2                | RAM16X1D x 2   | 
+|axi_pcie_mm_s__GC0                                                                    | comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_wr/comp_axi_mm_masterbridge_wr/firstdwbetemp_reg      | Implied   | 4 x 4                | RAM32M x 1     | 
+|axi_pcie_mm_s__GC0                                                                    | comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_wr/comp_axi_mm_masterbridge_wr/lastdwbetemp_reg       | Implied   | 4 x 4                | RAM32M x 1     | 
+|\comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_rd/comp_axi_s_masterbridge_rd  | data_width_64.tlpaddrl_reg                                                                                  | Implied   | 4 x 12               | RAM32M x 2     | 
+|\comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_rd/comp_axi_s_masterbridge_rd  | cpldsplitcount_reg                                                                                          | Implied   | 4 x 5                | RAM16X1D x 5   | 
+|\comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_rd/comp_axi_s_masterbridge_rd  | data_width_64.rdtlpaddrl_reg                                                                                | Implied   | 4 x 7                | RAM32M x 4     | 
+|\comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_rd/comp_axi_s_masterbridge_rd  | data_width_64.rdndtlpaddrl_reg                                                                              | Implied   | 4 x 7                | RAM32M x 2     | 
+|axi_pcie_mm_s__GC0                                                                    | comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_rd/comp_axi_mm_masterbridge_rd/m_axi_arlentemp_reg    | Implied   | 4 x 10               | RAM32M x 2     | 
+|axi_pcie_mm_s__GC0                                                                    | comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_rd/comp_axi_mm_masterbridge_rd/m_axi_araddrtemp_reg   | Implied   | 4 x 32               | RAM32M x 6     | 
+|axi_pcie_mm_s__GC0                                                                    | comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_rd/comp_axi_mm_masterbridge_rd/m_axi_awsizetemp_reg   | Implied   | 4 x 2                | RAM32M x 1     | 
+|axi_pcie_mm_s__GC0                                                                    | comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_rd/comp_axi_mm_masterbridge_rd/m_axi_arprottemp_reg   | Implied   | 4 x 3                | RAM32M x 1     | 
+|axi_pcie_mm_s__GC0                                                                    | comp_AXI_MM_S_MasterBridge/comp_axi_mm_s_masterbridge_rd/comp_axi_mm_masterbridge_rd/datatxpertlp_ram_reg   | Implied   | 4 x 2                | RAM16X1D x 2   | 
++--------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:05:51 ; elapsed = 00:06:10 . Memory (MB): peak = 2008.574 ; gain = 820.496 ; free physical = 10045 ; free virtual = 19962
+Finished Timing Optimization : Time (s): cpu = 00:06:30 ; elapsed = 00:06:49 . Memory (MB): peak = 2176.289 ; gain = 988.211 ; free physical = 10092 ; free virtual = 20009
+Finished Technology Mapping : Time (s): cpu = 00:06:42 ; elapsed = 00:07:12 . Memory (MB): peak = 2188.527 ; gain = 1000.449 ; free physical = 9642 ; free virtual = 19574
+Finished IO Insertion : Time (s): cpu = 00:06:46 ; elapsed = 00:07:17 . Memory (MB): peak = 2188.527 ; gain = 1000.449 ; free physical = 9663 ; free virtual = 19596
+Finished Renaming Generated Instances : Time (s): cpu = 00:06:46 ; elapsed = 00:07:17 . Memory (MB): peak = 2188.527 ; gain = 1000.449 ; free physical = 9663 ; free virtual = 19596
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:06:50 ; elapsed = 00:07:21 . Memory (MB): peak = 2188.527 ; gain = 1000.449 ; free physical = 9658 ; free virtual = 19591
+Finished Renaming Generated Ports : Time (s): cpu = 00:06:50 ; elapsed = 00:07:21 . Memory (MB): peak = 2188.527 ; gain = 1000.449 ; free physical = 9658 ; free virtual = 19591
+Finished Handling Custom Attributes : Time (s): cpu = 00:06:51 ; elapsed = 00:07:22 . Memory (MB): peak = 2188.527 ; gain = 1000.449 ; free physical = 9658 ; free virtual = 19591
+Finished Renaming Generated Nets : Time (s): cpu = 00:06:51 ; elapsed = 00:07:22 . Memory (MB): peak = 2188.527 ; gain = 1000.449 ; free physical = 9658 ; free virtual = 19591
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |BUFG          |     5|
+|2     |BUFGCTRL      |     1|
+|3     |CARRY4        |  1021|
+|4     |GTPE2_CHANNEL |     1|
+|5     |GTPE2_COMMON  |     1|
+|6     |LUT1          |  3528|
+|7     |LUT2          |   970|
+|8     |LUT3          |  2931|
+|9     |LUT4          |  3788|
+|10    |LUT5          |  1867|
+|11    |LUT6          |  3751|
+|12    |MMCME2_ADV    |     1|
+|13    |MUXCY         |    55|
+|14    |MUXF7         |   263|
+|15    |MUXF8         |    16|
+|16    |PCIE_2_1      |     1|
+|17    |RAM16X1D      |    10|
+|18    |RAM32M        |    30|
+|19    |RAMB18E1      |     2|
+|20    |RAMB36E1      |     4|
+|21    |RAMB36E1_1    |     3|
+|22    |RAMB36E1_2    |     4|
+|23    |RAMB36E1_3    |     4|
+|24    |SRLC32E       |     7|
+|25    |FDCE          |     9|
+|26    |FDRE          | 10075|
+|27    |FDSE          |   148|
++------+--------------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:06:51 ; elapsed = 00:07:22 . Memory (MB): peak = 2188.527 ; gain = 1000.449 ; free physical = 9658 ; free virtual = 19591
+synth_design: Time (s): cpu = 00:06:57 ; elapsed = 00:07:32 . Memory (MB): peak = 2201.250 ; gain = 1025.754 ; free physical = 11965 ; free virtual = 21870

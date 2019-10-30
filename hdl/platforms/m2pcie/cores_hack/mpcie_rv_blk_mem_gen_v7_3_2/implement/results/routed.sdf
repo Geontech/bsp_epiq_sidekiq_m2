@@ -1,0 +1,1517 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "mpcie_rv_blk_mem_gen_v7_3_2_exdes")
+  (DATE "Sun Mar 25 16:28:31 2018")
+  (VENDOR "Xilinx")
+  (PROGRAM "Xilinx SDF Writer")
+  (VERSION "P.20131013")
+  (DIVIDER /)
+  (VOLTAGE 1.14)
+  (TEMPERATURE 85)
+  (TIMESCALE 1 ps)
+  (CELL (CELLTYPE "X_CKBUF")
+    (INSTANCE bufg_A)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (59:209:209)(59:209:209))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_CKBUF")
+    (INSTANCE bufg_B)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (59:209:209)(59:209:209))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_WEBWEU0INV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1956:1956:3004)(1956:1956:3004))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_WEBWEU1INV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2085:2085:3171)(2085:2085:3171))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_WEAWEL0INV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1481:1481:2272)(1481:1481:2272))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_WEAWEL1INV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1610:1610:2439)(1610:1610:2439))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_RSTAINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_REGCEBREGCEINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_CLKBRDCLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (729:729:1276)(729:729:1276))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_CLKAWRCLKINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (729:729:1276)(729:729:1276))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ENAWRENINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2294:2294:3688)(2294:2294:3688))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_REGCEAINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ENBRDENINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1370:1370:2154)(1370:1370:2154))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_RSTBRSTINV)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O ( 0 )( 0 ))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_RAMB8BWER")
+    (INSTANCE bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH CLKAWRCLK DOADO[0] (559:1650:1650)(559:1650:1650))
+          (IOPATH CLKAWRCLK DOADO[1] (559:1650:1650)(559:1650:1650))
+          (IOPATH CLKAWRCLK DOADO[10] (559:1650:1650)(559:1650:1650))
+          (IOPATH CLKAWRCLK DOADO[11] (559:1650:1650)(559:1650:1650))
+          (IOPATH CLKAWRCLK DOADO[12] (559:1650:1650)(559:1650:1650))
+          (IOPATH CLKAWRCLK DOADO[2] (559:1650:1650)(559:1650:1650))
+          (IOPATH CLKAWRCLK DOADO[3] (559:1650:1650)(559:1650:1650))
+          (IOPATH CLKAWRCLK DOADO[4] (559:1650:1650)(559:1650:1650))
+          (IOPATH CLKAWRCLK DOADO[8] (559:1650:1650)(559:1650:1650))
+          (IOPATH CLKAWRCLK DOADO[9] (559:1650:1650)(559:1650:1650))
+          (IOPATH CLKBRDCLK DOBDO[0] (1216:1850:1850)(1216:1850:1850))
+          (IOPATH CLKBRDCLK DOBDO[1] (1216:1850:1850)(1216:1850:1850))
+          (IOPATH CLKBRDCLK DOBDO[10] (1216:1850:1850)(1216:1850:1850))
+          (IOPATH CLKBRDCLK DOBDO[11] (1216:1850:1850)(1216:1850:1850))
+          (IOPATH CLKBRDCLK DOBDO[12] (1216:1850:1850)(1216:1850:1850))
+          (IOPATH CLKBRDCLK DOBDO[2] (1216:1850:1850)(1216:1850:1850))
+          (IOPATH CLKBRDCLK DOBDO[3] (1216:1850:1850)(1216:1850:1850))
+          (IOPATH CLKBRDCLK DOBDO[4] (1216:1850:1850)(1216:1850:1850))
+          (IOPATH CLKBRDCLK DOBDO[8] (1216:1850:1850)(1216:1850:1850))
+          (IOPATH CLKBRDCLK DOBDO[9] (1216:1850:1850)(1216:1850:1850))
+        )
+      )
+      (TIMINGCHECK
+        (SETUPHOLD(posedge ADDRAWRADDR[0]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRAWRADDR[0]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRAWRADDR[1]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRAWRADDR[1]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRAWRADDR[10]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRAWRADDR[10]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRAWRADDR[11]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRAWRADDR[11]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRAWRADDR[12]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRAWRADDR[12]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRAWRADDR[2]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRAWRADDR[2]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRAWRADDR[3]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRAWRADDR[3]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRAWRADDR[4]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRAWRADDR[4]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRAWRADDR[5]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRAWRADDR[5]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRAWRADDR[6]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRAWRADDR[6]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRAWRADDR[7]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRAWRADDR[7]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRAWRADDR[8]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRAWRADDR[8]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRAWRADDR[9]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRAWRADDR[9]) (posedge CLKAWRCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge DIADI[0]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[0]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[1]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[1]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[10]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[10]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[11]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[11]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[12]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[12]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[13]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[13]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[14]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[14]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[15]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[15]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[2]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[2]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[3]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[3]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[4]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[4]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[5]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[5]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[6]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[6]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[7]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[7]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[8]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[8]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIADI[9]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIADI[9]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIPADIP[0]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIPADIP[0]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge DIPADIP[1]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(negedge DIPADIP[1]) (posedge CLKAWRCLK) (132:300:300)(53:100:100))
+        (SETUPHOLD(posedge ENAWREN) (posedge CLKAWRCLK) (210:220:220)(44:50:50))
+        (SETUPHOLD(negedge ENAWREN) (posedge CLKAWRCLK) (210:220:220)(44:50:50))
+        (SETUPHOLD(posedge RSTA) (posedge CLKAWRCLK) (101:180:180)(53:60:60))
+        (SETUPHOLD(negedge RSTA) (posedge CLKAWRCLK) (101:180:180)(53:60:60))
+        (SETUPHOLD(posedge WEAWEL[0]) (posedge CLKAWRCLK) (181:250:250)(53:100:100))
+        (SETUPHOLD(negedge WEAWEL[0]) (posedge CLKAWRCLK) (181:250:250)(53:100:100))
+        (SETUPHOLD(posedge WEAWEL[1]) (posedge CLKAWRCLK) (181:250:250)(53:100:100))
+        (SETUPHOLD(negedge WEAWEL[1]) (posedge CLKAWRCLK) (181:250:250)(53:100:100))
+        (SETUPHOLD(posedge ADDRBRDADDR[0]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRBRDADDR[0]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRBRDADDR[1]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRBRDADDR[1]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRBRDADDR[10]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRBRDADDR[10]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRBRDADDR[11]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRBRDADDR[11]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRBRDADDR[12]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRBRDADDR[12]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRBRDADDR[2]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRBRDADDR[2]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRBRDADDR[3]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRBRDADDR[3]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRBRDADDR[4]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRBRDADDR[4]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRBRDADDR[5]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRBRDADDR[5]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRBRDADDR[6]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRBRDADDR[6]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRBRDADDR[7]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRBRDADDR[7]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRBRDADDR[8]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRBRDADDR[8]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge ADDRBRDADDR[9]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(negedge ADDRBRDADDR[9]) (posedge CLKBRDCLK) (176:350:350)(66:100:100))
+        (SETUPHOLD(posedge DIBDI[0]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[0]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[1]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[1]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[10]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[10]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[11]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[11]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[12]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[12]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[13]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[13]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[14]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[14]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[15]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[15]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[2]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[2]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[3]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[3]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[4]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[4]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[5]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[5]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[6]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[6]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[7]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[7]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[8]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[8]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIBDI[9]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIBDI[9]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIPBDIP[0]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIPBDIP[0]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge DIPBDIP[1]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(negedge DIPBDIP[1]) (posedge CLKBRDCLK) (66:300:300)(22:100:100))
+        (SETUPHOLD(posedge ENBRDEN) (posedge CLKBRDCLK) (210:220:220)(44:50:50))
+        (SETUPHOLD(negedge ENBRDEN) (posedge CLKBRDCLK) (210:220:220)(44:50:50))
+        (SETUPHOLD(posedge RSTBRST) (posedge CLKBRDCLK) (101:180:180)(53:60:60))
+        (SETUPHOLD(negedge RSTBRST) (posedge CLKBRDCLK) (101:180:180)(53:60:60))
+        (SETUPHOLD(posedge WEBWEU[0]) (posedge CLKBRDCLK) (44:200:200)(22:100:100))
+        (SETUPHOLD(negedge WEBWEU[0]) (posedge CLKBRDCLK) (44:200:200)(22:100:100))
+        (SETUPHOLD(posedge WEBWEU[1]) (posedge CLKBRDCLK) (44:200:200)(22:100:100))
+        (SETUPHOLD(negedge WEBWEU[1]) (posedge CLKBRDCLK) (44:200:200)(22:100:100))
+        (PERIOD (posedge CLKAWRCLK) (3124))
+        (PERIOD (posedge CLKBRDCLK) (3124))
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ADDRA_0_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ADDRA_1_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_1)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ADDRA_2_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_2)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ADDRA_3_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_3)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ADDRB_0_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_4)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ADDRA_4_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_5)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ADDRB_1_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_6)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ADDRA_5_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_7)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ADDRB_2_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_8)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ADDRB_3_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_9)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ADDRB_4_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_10)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ADDRB_5_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_11)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE CLKA_IBUFG)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_12)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE CLKB_IBUFG)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_13)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTA_0_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTA_1_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE WEA_0_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_14)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTA_2_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTA_3_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTB_0_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTA_4_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTB_1_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTA_5_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE WEB_0_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_15)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINA_0_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_16)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTB_2_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTA_6_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINA_1_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_17)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTB_3_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTA_7_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINA_2_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_18)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTB_4_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTA_8_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINA_3_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_19)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTB_5_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTA_9_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINB_0_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_20)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINA_4_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_21)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTB_6_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINB_1_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_22)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINA_5_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_23)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTB_7_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINB_2_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_24)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINA_6_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_25)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTB_8_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINB_3_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_26)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINA_7_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_27)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_OBUF")
+    (INSTANCE DOUTB_9_OBUF)
+      (DELAY
+        (ABSOLUTE
+          (PORT I ( 0 )( 0 ))
+          (IOPATH I O (1038:2001:2001)(1038:2001:2001))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINB_4_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_28)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINA_8_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_29)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINB_5_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_30)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINA_9_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_31)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINB_6_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_32)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINB_7_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_33)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINB_8_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_34)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ENA_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_35)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE DINB_9_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_36)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ENB_IBUF)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (230:648:648)(230:648:648))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE ProtoComp2_IMUX_37)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (73:115:115)(73:115:115))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bufg_A_IN)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (360:360:839)(360:360:839))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bufg_B_IN)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (356:356:835)(356:356:835))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ADDRAWRADDR_9_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2285:2285:3740)(2285:2285:3740))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ADDRAWRADDR_8_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2727:2727:4316)(2727:2727:4316))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ADDRAWRADDR_7_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1231:1231:1984)(1231:1231:1984))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ADDRAWRADDR_6_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1423:1423:2167)(1423:1423:2167))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ADDRAWRADDR_5_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1244:1244:1995)(1244:1244:1995))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ADDRAWRADDR_4_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1213:1213:1967)(1213:1213:1967))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIBDI_12_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1721:1721:2612)(1721:1721:2612))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIBDI_11_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1723:1723:2629)(1723:1723:2629))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIBDI_10_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1647:1647:2517)(1647:1647:2517))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIBDI_9_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1663:1663:2552)(1663:1663:2552))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIBDI_8_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1913:1913:2903)(1913:1913:2903))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIBDI_4_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2009:2009:3018)(2009:2009:3018))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIBDI_3_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1862:1862:2834)(1862:1862:2834))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIBDI_2_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1770:1770:2668)(1770:1770:2668))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIBDI_1_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2017:2017:3225)(2017:2017:3225))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIBDI_0_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1765:1765:2697)(1765:1765:2697))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIADI_12_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (3499:3499:5603)(3499:3499:5603))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIADI_11_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (3232:3232:5363)(3232:3232:5363))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIADI_10_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (3433:3433:5515)(3433:3433:5515))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIADI_9_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (3045:3045:5046)(3045:3045:5046))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIADI_8_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (3379:3379:5455)(3379:3379:5455))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIADI_4_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (3109:3109:5147)(3109:3109:5147))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIADI_3_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (3188:3188:5105)(3188:3188:5105))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIADI_2_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2795:2795:4605)(2795:2795:4605))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIADI_1_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (3165:3165:5062)(3165:3165:5062))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_DIADI_0_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (3020:3020:4992)(3020:3020:4992))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ADDRBRDADDR_9_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1394:1394:2167)(1394:1394:2167))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ADDRBRDADDR_8_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1465:1465:2272)(1465:1465:2272))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ADDRBRDADDR_7_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1629:1629:2498)(1629:1629:2498))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ADDRBRDADDR_6_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1684:1684:2523)(1684:1684:2523))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ADDRBRDADDR_5_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1618:1618:2534)(1618:1618:2534))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_bmg0_U0_xst_blk_mem_generator_gnativebmg_native_blk_mem_gen_valid_cstr_ramloop_0_ram_r_s6_noinit_ram_TRUE_DP_PRIM9_ram_ADDRBRDADDR_4_Q)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1775:1775:2733)(1775:1775:2733))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTA_0_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2319:2319:3792)(2319:2319:3792))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTA_1_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2386:2386:3911)(2386:2386:3911))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTA_2_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2530:2530:4154)(2530:2530:4154))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTA_3_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2453:2453:4002)(2453:2453:4002))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTB_0_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1474:1474:2284)(1474:1474:2284))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTA_4_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2640:2640:4347)(2640:2640:4347))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTB_1_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1581:1581:2421)(1581:1581:2421))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTA_5_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2535:2535:4156)(2535:2535:4156))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTB_2_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1154:1154:1798)(1154:1154:1798))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTA_6_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2671:2671:4412)(2671:2671:4412))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTB_3_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1186:1186:1804)(1186:1186:1804))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTA_7_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2768:2768:4538)(2768:2768:4538))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTB_4_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1261:1261:1876)(1261:1261:1876))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTA_8_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2693:2693:4438)(2693:2693:4438))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTB_5_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1108:1108:1688)(1108:1108:1688))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTA_9_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (2771:2771:4567)(2771:2771:4567))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTB_6_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1285:1285:2005)(1285:1285:2005))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTB_7_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1191:1191:1847)(1191:1191:1847))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTB_8_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1343:1343:2040)(1343:1343:2040))
+        )
+      )
+  )
+  (CELL (CELLTYPE "X_BUF")
+    (INSTANCE NlwBufferBlock_DOUTB_9_OBUF_I)
+      (DELAY
+        (ABSOLUTE
+          (IOPATH I O (1273:1273:1897)(1273:1273:1897))
+        )
+      )
+  )
+)
